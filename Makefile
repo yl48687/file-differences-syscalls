@@ -1,6 +1,3 @@
-Yewon Lee
-811-280-159
-
 projName = proj3
 compileCmd = gcc -Wall -pedantic-errors $(projName).c -g -o $(projName).out
 
