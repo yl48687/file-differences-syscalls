@@ -2,10 +2,10 @@
 This project focuses on implementing file comparison functionality using system calls in the C programming language. The program reads the contents of two input files, compares them byte-by-byte, and writes the differences into separate output files. Additionally, the program calculates the time taken for each step of the process.
 
 ## Design Overview
-The program consists of a single file, `file_comparison.c`, which implements the file comparison functionality using system calls like open, close, read, and write. The implementation ensures efficient reading, comparison, and writing of file contents using dynamically allocated memory for arrays.
+The program consists of a single file, `file_comparison`, which implements the file comparison functionality using system calls like open, close, read, and write. The implementation ensures efficient reading, comparison, and writing of file contents using dynamically allocated memory for arrays.
 
 ## Functionality
-`file_comparison.c`:
+`file_comparison`:
 - Implements the main functionality of comparing two input files and writing differences into separate output files.
 - Uses system calls like `open`, `close`, `read`, and `write` for file I/O operations.
 - Includes two steps:
